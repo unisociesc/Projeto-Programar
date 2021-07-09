@@ -1,0 +1,64 @@
+Variáveis e Operadores
+
+1- Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+2- Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+3- Criar um programa que receba do console todos os tipos de variáveis e mostre usando print os seus respestivos valores.
+4- Faça um Programa que peça dois números e imprima a soma.
+5- Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+6- Faça um Programa que converta metros para centímetros.
+7- Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+Para homens: (72.7*h) - 58
+Para mulheres: (62.1*h) - 44.7
+8- Faça um programa que some valores utilizando o operador de atribuição.
+9- Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+
+
+Desafio!!!
+
+Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
+salário bruto.
+  * quanto pagou ao INSS.
+  * quanto pagou ao sindicato.
+  * o salário líquido.
+Calcule os descontos e o salário líquido, conforme a tabela abaixo:
+  + Salário Bruto : R$
+  - IR (11%) : R$
+  - INSS (8%) : R$
+  - Sindicato ( 5%) : R$
+  = Salário Líquido : R$
+Obs.: Salário Bruto - Descontos = Salário Líquido
+
+Decisão
+
+1- Faça um Programa que peça dois números e imprima o maior deles.
+2- Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+3- Faça um Programa que leia três números e mostre o maior deles.
+4- Faça um programa que verifique se uma letra digitada é F ou M. Conforme a letra escrever se é feminino ou masculino.
+5- Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+  * A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+  * A mensagem "Reprovado", se a média for menor do que sete;
+  * A mensagem "Aprovado com Distinção", se a média for igual a dez.
+6- Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo.
+7- Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+8- Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
+  Dicas:
+    Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
+    Triângulo Equilátero: três lados iguais;
+    Triângulo Isósceles: quaisquer dois lados iguais;
+    Triângulo Escaleno: três lados diferentes;
+9- Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+
+Desafio!!!
+
+O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
+                      Até 5 Kg           Acima de 5 Kg
+  File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg
+  Alcatra         R$ 5,90 por Kg          R$ 6,80 por Kg
+  Picanha         R$ 6,90 por Kg          R$ 7,80 por Kg
+Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente. 
+Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total da compra. 
+Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: 
+tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.
+
+Repetição
+
