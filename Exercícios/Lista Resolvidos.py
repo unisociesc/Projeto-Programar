@@ -299,6 +299,302 @@ print("*************************************************************************
 
 #Repetição - While
 
+#1
+
+nota=float(input("informe um numero de 0 a 10: "))
+
+while (nota>10) or (nota<0):
+    nota=float(input("informe um numero de 0 a 10: "))
+    
+#2
+
+print("Faça já seu cadastro:")
+
+usuario=str(input("usuário--> "))
+senha=str(input("senha-->"))
+
+while usuario==senha:
+    print("ERRO: o usuário não pode ser igual a senha, tente novamente")
+	usuario=str(input("usuário--> "))
+	senha=str(input("senha-->"))
+else:
+	print("Cadastro efetuado com sucesso!")
+    
+#3
+
+#Nome: maior que 3 caracteres;
+
+nome=str(input("informe um nome--> "))
+
+while (len(nome) <=  3):
+	nome=str(input("informe um nome--> "))
+
+#Idade: entre 0 e 150;
+
+idade=int(input("informe a idade--> "))
+
+while (idade > 150 or idade < 0 :
+	idade=int(input("informe a idade--> "))
+	
+	
+#Salário: maior que zero;
+       
+salario=float(input("informe um salário--> "))
+       
+while (salario < 0):
+	salario=float(input("informe um salário--> "))
+	
+#Sexo: 'f' ou 'm';
+
+sexo=str(input("informe a inicial do seu sexo--> "))
+       
+while (sexo !="f" and sexo!="m"):
+	sexo=str(input("informe a inicial do seu sexo--> "))
+	
+#Estado Civil: 's', 'c', 'v', 'd';
+
+estado_civil=str(input("informe a inicial do seu estado civil-->"))
+       
+while (estado_civil != "s" and estado_civil != "c" and estado_civil != "v" and estado_civil != "d"):
+	estado_civil=str(input("informe a inicial do seu estado civil-->"))
+
+#4
+
+popA = int(80000) 
+popB = int(200000) 
+anos = int(0)
+cresA = float(0.03)
+cresB = float(0.015)
+       
+while (popA < popB):
+    anos += 1
+    popA = popA + (popA * cresA)
+    popB = popB + (popB * cresB)
+       
+print("Após %i anos o país A ultrapassou o país B em número de habitantes." % anos)
+print("País A: %.0f" % popA)
+print("País B: %.0f" % popB)
+
+#5
+
+popA = float(input("informe a população da cidade A "))
+popB = float(input("informe a população da cidade B "))
+anos = 0
+cresA = float(input("informe a taxa de crescimento da população da cidade A "))
+cresB = float(input("informe a taxa de crescimento da população da cidade B "))
+       
+while popA < popB:
+	popA+=round((popA*cresA)/100)
+	popB+=round((popB*cresB)/100)
+	anos=anos+1
+
+print("levará",anos,"anos para população da cidade A ser maior que a cidade B")
+print("populaçãoB-->",popB,"habitantes")
+
+#6
+       
+num1 = float(input("digite o 1º numero--> "))
+num2 = float(input("digite o 2º numero--> "))
+num3 = float(input("digite o 3º numero--> "))
+num4 = float(input("digite o 4º numero--> "))
+num5 = float(input("digite o 5º numero--> "))
+       
+soma = num1+num2+num3+num4+num5
+       
+print("soma-->",soma,)
+print("média-->",soma/5)
+print("populaçãoA-->", popA,"habitantes")
+    
+#7
+       
+inicio = int(1)
+fim = int(50)
+       
+while (inicio<=fim):
+    if (inicio%2 != 0):
+       print(inicio)
+    inicio+=1
+       
+#8
+       
+n = int(input('Digite um número inteiro: '))
+count = int(0)
+i = int(0)
+
+while (i <= n or count < 2):
+  i += 1
+  x = n % i
+  if (x == 0):
+    count += 1
+
+if (count <= 2):
+  print('É primo')
+else:
+  print('Não é primo')
+
+#Repetição - For
+
+#1
+       
+for i in range(1,11,1):
+    print(i)
+     
+#2
+
+n = int(input('Digite um número inteiro: '))
+
+for i in range(1,11,1):
+    print(n,'X',i,'=',i*n)
+
+#Listas
+       
+#1
+
+listaNumeros = []
+       
+print ('Informe os 5 numeros')
+       
+for i in range(5):
+    listaNumero.append(input('Numero '+ str(i+1) + ':\n'))
+       
+print (listaNumeros) 
+       
+#2
+
+listaNumerosReais = []
+       
+print ('Informe os 10 numeros reais')
+       
+for i in range(10):
+    listaNumerosReais.append(float(input('Numero '+ str(i+1) + ':\n')))
+       
+listaNumerosReais.reverse()
+       
+print (listaNumerosReais) 
+
+#3
+       
+listaNotas = []
+media = 0
+       
+print ('Informe as 4 notas')
+       
+for i in range(4):
+    listaNotas.append(float(input('Nota '+ str(i+1) + ':\n')))
+
+soma = sum(listaNotas)
+media = soma/4
+       
+print (listaNotas) 
+print (media)
+     
+#4
+       
+caract = []
+vogais = ['a','e','i','o','u']
+
+cont = 0
+x = 1
+
+while x <= 10:
+  entrada = str(input('Caracter %d:'%x))
+  x += 1
+  caract.append(entrada)
+  if (entrada in vogais):
+    cont += 1
+
+print(caract)
+
+print('\n')
+
+quant = 10 - cont
+
+print('Consoantes:', quant)
+       
+#5
+    
+vetor = []
+par = []
+impar = []
+
+for n in range(0,10):
+  novo = int(input('Digite um número: '))
+  while (novo < 0):
+    novo = int(input('Digite um número válido: '))
+  vetor.append(novo)
+
+for n in range(0,10):
+  if (vetor[n] % 2 == 0):
+    par.append(vetor[n])
+  else:
+    impar.append(vetor[n])
+
+print('Vetor com 10 elementos:', vetor)
+print('Vetor com elementos pares:', par)
+print('Vetor com elementos impares:', impar)
+       
+#6
+       
+listaNotas = []
+notasAluno = []
+       
+print ('Notas dos Alunos')
+for i in range(10):
+    media = 0
+    notasAluno = []
+    print ('Aluno: ' + str(i + 1))
+    for j in range(4):
+        notasAluno.append(float(input('Nota: ' + str(j+1) + '\n')))
+        media += notasAluno[j]
+        print (media)
+    media = media/4
+    listaNotas.append(media)
+       
+#7
+       
+idades = []
+alturas = []
+
+for valor in range(0, 5):
+    idades.append(int(input("Digite a idade: ")))
+    alturas.append(float(input("Digite a altura: ")))
+
+print("Idades na ordem inversa: ")
+for valor in range(0, 5):
+    print(idades[len(idades)-1-valor])
+
+print("Alturas na ordem inversa: ")
+for valor in range(0, 5):
+    print(alturas[len(alturas)-1-valor])
+       
+#8
+       
+vetorA = []
+soma = 0
+       
+for numero in range(0, 10):
+    vetorA.append(int(input("Digite um número: ")))
+    soma = soma + (vetorA[len(vetorA)-1]**2)
+       
+print("A soma dos quadrados dos elementos do vetor são " + str(soma))
+       
+#9
+       
+import random
+
+lista1 = []
+lista2 = []
+lista3 = []
+
+for i in range(10):
+	lista1.append(random.randint(1,100))
+	lista2.append(random.randint(1,100))
+	lista3.append(lista1[i])
+	lista3.append(lista2[i])
+
+print lista1
+print lista2
+print lista3 
 
 
 
