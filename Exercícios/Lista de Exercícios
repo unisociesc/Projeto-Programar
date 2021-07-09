@@ -71,6 +71,7 @@ Repetição - While
  Sexo: 'f' ou 'm';
  Estado Civil: 's', 'c', 'v', 'd';
 4- Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%.
+Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 5- Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.Faça um programa que leia 5 números e informe o maior número.
 6- Faça um programa que leia 5 números e informe a soma e a média dos números.
 7- Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
@@ -80,10 +81,6 @@ Repetição - For
 
 1- Desenvolva um programa que mostre 10 valores em ordem crescente.
 2- Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo usuário.
-
-Desafio!!
-
-Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
 Listas 
 
